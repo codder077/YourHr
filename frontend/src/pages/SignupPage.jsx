@@ -31,7 +31,7 @@ const SignupPage = () => {
                 formDataToSend.append('resume', file);
             }
 
-            const response = await axios.post('https://yourhr-bhqi.onrender.com/signup', formDataToSend, {
+            const response = await axios.post('https://yourhr-bhqi.onrender.com/api/signup', formDataToSend, {
                 headers: {
                     'Content-Type': 'multipart/form-data',
                 },
