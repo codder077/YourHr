@@ -18,7 +18,7 @@ const ProfilePage = () => {
                 setName(response.data.user.name);
                 setEmail(response.data.user.email);
             } catch (error) {
-                console.error('Error fetching user data:', error);
+                console.error('Error fetching user data from DB:', error);
             }
         };
 
