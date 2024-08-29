@@ -13,7 +13,7 @@ const ProfilePage = () => {
     useEffect(() => {
         const fetchUserData = async () => {
             try {
-                const response = await axios.get(`http://localhost:5000/api/profile/${userId}`);
+                const response = await axios.get(`https://yourhr-bhqi.onrender.com/api/profile/${userId}`);
                 setUser(response.data.user);
                 setName(response.data.user.name);
                 setEmail(response.data.user.email);
@@ -39,7 +39,7 @@ const ProfilePage = () => {
         if (resume) formData.append('resume', resume);
 
         try {
-            await axios.put(`http://localhost:5000/api/profile/${userId}`, formData, {
+            await axios.put(`https://yourhr-bhqi.onrender.com/api/profile/${userId}`, formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data',
                 },

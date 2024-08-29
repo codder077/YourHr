@@ -120,4 +120,4 @@
 
 - Open your browser and navigate to http://localhost:3000 to access the frontend.
 
-- The backend API is accessible at http://localhost:5000.
+- The backend API is accessible at https://yourhr-bhqi.onrender.com.
