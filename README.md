@@ -10,7 +10,6 @@
 - **Profile Management**: Users can update their profile details, including personal information and resume.
 - **Resume Upload**: Users can upload their resumes, stored securely using MongoDB's GridFS.
 - **Responsive UI**: A clean and intuitive interface that works across all devices.
-- **User Testimonials**: Display feedback and testimonials from satisfied users.
 
 ## Architecture
 
@@ -82,10 +81,6 @@
 - Users can upload their resumes directly from the profile page.
 - The resumes are stored in MongoDB using GridFS and linked to the user profile.
 
-### 5. **Job Recommendations**
-
-- The application provides tailored job recommendations based on user data.
-- Recommendations are displayed on the profile page, with easy access to job application links.
 
 ## Installation & Setup
 
